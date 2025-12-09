@@ -11,3 +11,21 @@ One commit from GitHub
 Other update
 
 Changes from local branch called dev01
+
+## dasd
+
+```mermaid
+
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
+
+```
